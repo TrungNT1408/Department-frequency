@@ -1,0 +1,1 @@
+scp target/Department-frequency-0.0.1-SNAPSHOT.jar arfm@adfilex02:/home/arfm/backend/

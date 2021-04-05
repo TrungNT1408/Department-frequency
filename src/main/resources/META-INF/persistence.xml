@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="vn.osp.adfilex_Department-frequency_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.AdmLogAccess</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.Site</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.AdmGroup</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.Bts</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.AdmUsers</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.AdmGroupUser</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.BtsCell</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.Kpi</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.KpiNoise</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.CellNoise</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.Cell</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.AdmAuthorities</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.LicenseBts</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.CellFreq</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.Btsf</class>
+    <class>vn.osp.adfilex.Departmentfrequency.entity.AdmGroupAuthorities</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.1.240:3306/arfm?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="adfilex"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Adfilex#2019"/>
+    </properties>
+  </persistence-unit>
+</persistence>
